@@ -8,13 +8,29 @@ was born.
 
 You can try it on [cow.name](https://cow.name)
 
-# Build
+## Build
 
 ```bash
 go build
 ```
 
-# Assets
+## Run
+
+```bash
+Usage of ./chloe:
+  -debug
+    	Debug mode
+  -host string
+    	Hostname (default "localhost")
+  -port string
+    	Port (default "8000")
+```
+
+```bash
+./chloe # defaults to localhost:8000
+```
+
+## Assets
 
 To update the assets in `assets.go`, install [go-bindata](https://github.com/go-bindata/go-bindata)
 
