@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Chloe</title>
+    <meta name="description" content="Don't have a cow, man!">
+    <meta name="keywords" content="chloe, cow, image generator">
+    <meta property="og:title" content="Chloe">
+    <meta property="og:site_name" content="Chloe">
+    <meta property="og:url" content="https://cow.name">
+    <meta property="og:description" content="Don't have a cow, man!">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://a.cow.name/d/Chloe">
+    <style>
+        html, body {
+            height: 100%;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            font-size: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: system-ui, -apple-system,
+            BlinkMacSystemFont, “Segoe UI”,
+            Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+            “Helvetica Neue”, Arial, sans-serif;
+            background: black;
+            color: #cccccc;
+        }
+
+        a {
+            color: red;
+        }
+
+        #chloe {
+            max-width: 40%;
+        }
+
+        @media (orientation: portrait) {
+            #chloe {
+                max-width: 90%;
+            }
+        }
+
+        label {
+            color: white;
+        }
+
+        input {
+            background: #cccccc;
+            padding: 5px;
+            border: 1px solid white;
+        }
+
+        input:active, input:focus {
+            border-color: red;
+            outline: none !important;
+        }
+    </style>
+</head>
+<body>
+<div id="chloe">
+    <h1>Hello Carnivores, Vegetarians and Vegans alike</h1>
+    <p>
+        Feel like shocking or shaming your friends about their meat consumption?
+        Having an ironic day, dear meat eater?
+    </p>
+    <p>
+        Enter your own or a friend's name below and see the magic happen.
+    </p>
+    <form action="/" method="get">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Jens Mander" required>
+        <button type="submit">Go</button>
+    </form>
+    <p>
+        <small>
+            This is based on an image that made the rounds on social media (example <a href="https://imgur.com/gallery/AJJk5eE">here</a>).
+            Find the source code for this on <a href="https://github.com/tsak/chloe">GitHub</a>
+        </small>
+    </p>
+</div>
+</body>
+</html>
