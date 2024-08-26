@@ -6,7 +6,7 @@ This started on a friends Slack with someone posting [this image](https://i.redd
 *(Trigger warning: an image of wrapped meat on a super market shelf)* and then the idea of an image generator
 was born.
 
-You can try it on [chloe.tsak.net](https://chloe.tsak.net)
+~~You can try it on [chloe.tsak.net](https://chloe.tsak.net)~~
 
 ## Build
 
